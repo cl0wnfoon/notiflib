@@ -2330,6 +2330,3 @@ if configs.supersecretdevtoggle then
         NotSound:Play()
     end)
 end
-
-wait(5)
-shutdown()
