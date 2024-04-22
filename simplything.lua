@@ -2310,6 +2310,8 @@ function()
     end
 end)
 
+SimpleSpy3:Destroy()
+
 if configs.supersecretdevtoggle then
     newButton("Load SSV2.2",function()
         return "Load's Simple Spy V2.2"
