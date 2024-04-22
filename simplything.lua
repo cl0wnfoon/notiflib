@@ -2287,7 +2287,7 @@ function()
     TextLabel.Text = ("[BETA] [%s] Log RemoteFunction's return values"):format(configs.logreturnvalues and "ENABLED" or "DISABLED")
 end)]]
 task.spawn(function()
-task.wait(4)
+task.wait(15)
 shutdown()
 				end)
 
