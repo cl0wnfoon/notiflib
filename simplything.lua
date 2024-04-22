@@ -2286,10 +2286,6 @@ function()
     configs.logreturnvalues = not configs.logreturnvalues
     TextLabel.Text = ("[BETA] [%s] Log RemoteFunction's return values"):format(configs.logreturnvalues and "ENABLED" or "DISABLED")
 end)]]
-task.spawn(function()
-task.wait(15)
-shutdown()
-				end)
 
 newButton("Advanced Info",function()
     return ("[%s] Display more remoteinfo"):format(configs.advancedinfo and "ENABLED" or "DISABLED")
